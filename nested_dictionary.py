@@ -1,0 +1,10 @@
+dhaka={'dhaka_university':1921}
+rajshahi={'rajshahi_university':1953}
+chitagong={'citagong_university':1966}
+university={
+    'uni_1':dhaka,
+    'uni_2':rajshahi,
+    'uni_3':chitagong
+    }
+print(university)
+print(university['uni_1']['dhaka_university'])    
